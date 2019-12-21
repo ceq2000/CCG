@@ -1,0 +1,74 @@
+[
+    {
+        "id": 1,
+        "character": "Magnitude",
+        "image": "https://vignette.wikia.nocookie.net/community-sitcom/images/5/5a/Magnitude.png/revision/latest/scale-to-width-down/235?cb=20130127151254",
+        "clicked": false
+    },
+    {
+        "id": 2,
+        "character": "Pierce",
+        "image": "https://vignette.wikia.nocookie.net/community-sitcom/images/b/b4/Hologram_Pierce.jpg/revision/latest/scale-to-width-down/235?cb=20140103151842",
+        "clicked": false
+    },
+    {
+        "id": 3,
+        "character": "Jeff",
+        "image": "https://vignette.wikia.nocookie.net/community-sitcom/images/1/12/Jeff_Winger_Season_Two_sitting_promo_pic2.jpg/revision/latest?cb=20140102182910",
+        "clicked": false
+    },
+    {
+        "id": 4,
+        "character": "Troy",
+        "image": "https://vignette.wikia.nocookie.net/community-sitcom/images/c/c0/Troy_Season_One.jpg/revision/latest?cb=20130704113554",
+        "clicked": false
+    },
+    {
+        "id": 5,
+        "character": "Annie",
+        "image": "https://vignette.wikia.nocookie.net/community-sitcom/images/f/fa/4X4_promopic3.jpg/revision/latest?cb=20130224212001",
+        "clicked": false
+    },
+    {
+        "id": 6,
+        "character": "Abed",
+        "image": "https://vignette.wikia.nocookie.net/greendale/images/8/81/Abed.png/revision/latest?cb=20101008175408",
+        "clicked": false
+    },
+    {
+        "id": 7,
+        "character": "Chang",
+        "image": "https://vignette.wikia.nocookie.net/characters/images/1/10/Ben_Chang.jpg/revision/latest?cb=20151222211545",
+        "clicked": false
+    },
+    {
+        "id": 8,
+        "character": "Britta",
+        "image": "https://vignette.wikia.nocookie.net/community-sitcom/images/8/89/Britta_Season_One_promopic.jpg/revision/latest?cb=20130227181739",
+        "clicked": false
+    },
+    {
+        "id": 9,
+        "character": "Shirley",
+        "image": "https://vignette.wikia.nocookie.net/greendale/images/e/e9/Shirley.png/revision/latest?cb=20101008175604",
+        "clicked": false
+    },
+    {
+        "id": 10,
+        "character": "Dean",
+        "image": "http://2.bp.blogspot.com/-UiDmmmB5M_4/TvwOXxglMEI/AAAAAAAAHdY/USywkqSrhKo/s1600/dean-pelton-jim-rash-community.jpg",
+        "clicked": false
+    },
+    {
+        "id": 11,
+        "character": "Garrett",
+        "image": "https://vignette.wikia.nocookie.net/community-sitcom/images/5/50/Garrett.png/revision/latest/scale-to-width-down/235?cb=20120307200352",
+        "clicked": false
+    },
+    {
+        "id": 12,
+        "character": "Todd",
+        "image": "https://vignette.wikia.nocookie.net/community-sitcom/images/6/66/Todd_Jacobson.jpg/revision/latest/scale-to-width-down/235?cb=20141211214221",
+        "clicked": false
+    }
+]

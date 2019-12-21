@@ -1,0 +1,47 @@
+
+nav {
+    width: 100%;
+    font-size: 2rem;
+    color: #CCDBDC;
+    margin-bottom: 50px;
+    background-color: #0B132B;
+    height: auto;
+    font-family: 'Roboto Slab', serif;
+  }
+  
+  #gameScore, #highScore, #message{
+    font-size: 1rem;
+    padding-right: 10px;
+  }
+
+  #gameScore, #highScore{
+    text-align: right;
+  }
+
+  #message{
+    color: red;
+    text-align: center;
+  }
+
+  .header {
+    color: #29339B;
+  }
+  
+  
+  nav li {
+    display: inline-block;
+    padding: 26px 0;
+    width: 25%;
+  }
+  
+  ul {
+    display: flex;
+    align-items: center;
+  }
+  
+  @media only screen and (max-width: 750px) {
+    #gameScore, #highScore, a {
+      font-size: 1rem;
+      text-decoration: none;
+    }
+}
