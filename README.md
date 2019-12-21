@@ -18,4 +18,3 @@ Click of the following link to preview the completed assignment: [https://ceq200
 - JavaScript
 - [Bootstrap](http://getbootstrap.com/) - Framework
 - [React](https://reactjs.org/) - JavaScript Library
-# community-clicky-game
