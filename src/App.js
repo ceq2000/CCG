@@ -36,7 +36,7 @@ class App extends Component {
     const newScore = this.state.currentScore + 1;
     this.setState({
       currentScore: newScore,
-      message: "Cool. CoolCoolCool. You guessed right!"
+      message: "You guessed right! Keep it up"
     });
     if (newScore >= this.state.highScore) {
       this.setState({ highScore: newScore });
