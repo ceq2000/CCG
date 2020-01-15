@@ -36,11 +36,11 @@ class App extends Component {
     const newScore = this.state.currentScore + 1;
     this.setState({
       currentScore: newScore,
-      message: "You guessed right! Keep it up"
+      message: "Very good! Keep it up."
     });
     if (newScore >= this.state.highScore) {
       this.setState({ highScore: newScore });
-    } 
+    }
     this.handleShuffle();
   };
 
@@ -48,7 +48,7 @@ class App extends Component {
     this.setState({
       currentScore: 0,
       highScore: this.state.highScore,
-      message: "Brittastrophe! That's not right!",
+      message: "Good game. Don't give up!",
       clicked: []
     });
     this.handleShuffle();
@@ -63,26 +63,26 @@ class App extends Component {
     return (
       <Wrapper>
         <Nav
-          title="Community Clicky Game"
+          title="Clicky Game"
           score={this.state.currentScore}
           highScore={this.state.highScore}
           message={this.state.message}
         />
 
         <Title>
-        Click on an image to earn points, but don't click on any more than once!
+          To earn points click on an image but don't click on an image more than once!
         </Title>
-            {this.state.characters.map(character => (
-                <CharacterCard
-                  key={character.id}
-                  handleClick={this.handleClick}
-                  handleIncrement={this.handleIncrement}
-                  handleReset={this.handleReset}
-                  handleShuffle={this.handleShuffle}
-                  id={character.id}
-                  image={character.image}
-                />
-            ))}
+        {this.state.characters.map(character => (
+          <CharacterCard
+            key={character.id}
+            handleClick={this.handleClick}
+            handleIncrement={this.handleIncrement}
+            handleReset={this.handleReset}
+            handleShuffle={this.handleShuffle}
+            id={character.id}
+            image={character.image}
+          />
+        ))}
       </Wrapper>
     );
   }
