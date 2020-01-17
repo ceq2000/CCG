@@ -3,15 +3,15 @@ nav {
   font-size: 2rem;
   color: #ccdbdc;
   margin-bottom: 50px;
-  background-color: #e00909;
-  height: auto;
+  background-color: rgb(63, 61, 65);
+  height: 2.5cm;
   font-family: Verdana;
 }
 
 #gameScore,
 #highScore,
 #message {
-  font-size: 1rem;
+  font-size: 1.25rem;
   padding-right: 10px;
 }
 
@@ -21,7 +21,7 @@ nav {
 }
 
 #message {
-  color: red;
+  color: white;
   text-align: center;
 }
 

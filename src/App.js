@@ -36,7 +36,7 @@ class App extends Component {
     const newScore = this.state.currentScore + 1;
     this.setState({
       currentScore: newScore,
-      message: "Very good! Keep it up."
+      message: "Keep it up!"
     });
     if (newScore >= this.state.highScore) {
       this.setState({ highScore: newScore });
@@ -48,7 +48,7 @@ class App extends Component {
     this.setState({
       currentScore: 0,
       highScore: this.state.highScore,
-      message: "Good game. Don't give up!",
+      message: "Don't give up!",
       clicked: []
     });
     this.handleShuffle();
@@ -63,14 +63,15 @@ class App extends Component {
     return (
       <Wrapper>
         <Nav
-          title="Clicky Game"
+          title="My Scores:"
           score={this.state.currentScore}
           highScore={this.state.highScore}
           message={this.state.message}
         />
 
         <Title>
-          To earn points click on an image but don't click on an image more than once!
+          <h1>Community Clicky Game</h1>
+          <h5>Click a different image each time to earn points but only click on an image once!</h5>
         </Title>
         {this.state.characters.map(character => (
           <CharacterCard

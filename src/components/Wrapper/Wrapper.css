@@ -1,10 +1,11 @@
+/* wrapper for main body */
 .wrapper {
-    background: rgb(6, 23, 70);
-    height: 100%;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-around;
-    align-content: flex-start;
-    overflow: auto;
-    padding-bottom: 50px;
-  }
+  background: rgb(79, 1, 95);
+  height: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-content: flex-start;
+  overflow: auto;
+  padding-bottom: 50px;
+}
