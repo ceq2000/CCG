@@ -71,7 +71,7 @@ class App extends Component {
 
         <Title>
           <h1>Community Clicky Game</h1>
-          <h5>Click a different image each time to earn points but <u>only click on an image once!</u></h5>
+          <h5>Click a different image each time to earn points but <u>click on an image only once!</u></h5>
         </Title>
         {this.state.characters.map(character => (
           <CharacterCard

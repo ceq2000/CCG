@@ -6,6 +6,7 @@ nav {
   background-color: rgb(63, 61, 65);
   height: 2.5cm;
   font-family: Verdana;
+  box-shadow: dimgray;
 }
 
 #gameScore,

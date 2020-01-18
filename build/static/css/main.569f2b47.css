@@ -1,7 +1,7 @@
 * {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
-  font-family: Roboto Slab, serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 #root,
 body,
@@ -29,6 +29,7 @@ html {
   height: 100%;
   overflow: hidden;
   background: #fff;
+  box-shadow: blanchedalmond;
 }
 .card > .img-container > img {
   height: 100%;
