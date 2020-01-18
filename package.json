@@ -4,6 +4,7 @@
   "private": true,
   "homepage": "https://ceq2000.github.io/community-clicky-game/",
   "dependencies": {
+    "if-env": "^1.0.4",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "react-scripts": "3.3.0",
