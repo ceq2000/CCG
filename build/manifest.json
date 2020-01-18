@@ -1,6 +1,7 @@
 {
   "short_name": "React App",
   "name": "Create React App Sample",
+  "proxy": "http://localhost:3001",
   "icons": [
     {
       "src": "favicon.ico",
